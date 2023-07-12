@@ -4,9 +4,7 @@ public class PremiumRides {
     public static String ride = "normal";
 
 
-    public static final int noOfRide = 10;
-
-    public double invoice(double distance, int time) {
+    public double invoice(double distance, double time,String ride) {
 
 
         if (ride == "normal") {
